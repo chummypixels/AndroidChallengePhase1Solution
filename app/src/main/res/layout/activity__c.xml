@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_C">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/profile_id"
+            android:layout_width="188dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/profile" />
+
+        <View
+            android:id="@+id/seperator_id"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/profile_id"
+            android:layout_marginTop="64dp"
+            android:background="#c0c0c0" />
+
+        <TextView
+            android:id="@+id/profile_name_tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_id"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:text="Chummypixels"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/track_tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seperator_id"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="32dp"
+            android:text="Track:  Android" />
+
+        <TextView
+            android:id="@+id/country_tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/track_tv_id"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="32dp"
+            android:text="Country:  Nigeria" />
+
+        <TextView
+            android:id="@+id/email_tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/country_tv_id"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="32dp"
+            android:text="Email:  Chummypixels@gmail.com" />
+
+        <TextView
+            android:id="@+id/phone_number_tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email_tv_id"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="32dp"
+            android:text="Phone number:  +234 8159963608" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phone_number_tv_id"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="48dp"
+            android:text="Slack username:  @chummypixels" />
+
+    </RelativeLayout>
+</ScrollView>
