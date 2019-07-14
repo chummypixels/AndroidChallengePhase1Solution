@@ -12,8 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Activity_C"
+            android:parentActivityName=".MainActivity"
             android:label="My Profile"></activity>
         <activity android:name=".Activity_B"
+            android:parentActivityName=".MainActivity"
             android:label="About ALC"/>
         <activity android:name=".MainActivity">
             <intent-filter>
